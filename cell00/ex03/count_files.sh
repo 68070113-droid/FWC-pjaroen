@@ -1,1 +1,1 @@
-echo $(ls -lA | grep -c '^[-d]')
+echo "$(ls -1 | wc -l)$"
